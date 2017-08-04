@@ -40,8 +40,6 @@ public class FFTsample {
 	public void toTimeDomain() {
         nptsInTimeDomain = getNPTS();
 
-//        int nnp = nptsInTimeDomain / 2;
-
         FastFourierTransformer fft = new FastFourierTransformer(DftNormalization.STANDARD);
 
         // pack to temporary Complex array
